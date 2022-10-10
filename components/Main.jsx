@@ -5,9 +5,9 @@ import BackgroundCircles from "./BackgroundCircles";
 
 function Main() {
 	const [text, count] = useTypewriter({
-		words: ["Hi, i'm Weri Oliveira", "The guy what want grow up"],
+		words: ["Hi, i'm Weri Oliveira"],
 		loop: true,
-		delaySpeed: 2000,
+		delaySpeed: 4000,
 	});
 	return (
 		<div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
@@ -22,7 +22,7 @@ function Main() {
 					Web Developer
 				</h2>
 
-				<h1 className="text-5xl lg:text-6xl font-semibold px-10">
+				<h1 className="text-2xl lg:text-6xl font-semibold px-10">
 					<span className="mr-3">{text}</span>
 					<Cursor cursorColor="#5C2E7E" />
 				</h1>

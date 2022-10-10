@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function ExperienceCard() {
 	return (
 		<div
-			className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]
+			className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px]
          snap-center bg-[#323232] p-10 hover:opacity-100 opacity-50 transition-opacity duration-200 overflow-hidden">
 			<motion.img
 				initial={{ y: -100, opacity: 0 }}
